@@ -3,7 +3,6 @@ import './App.css';
 import Header from './Header'
 import Slidebar from './Slidebar'
 import Feed from './Feed'
-import MessageSender from './MessageSender'
 
 function App() {
   return (
@@ -16,7 +15,7 @@ function App() {
       {/* App body */}
       <Slidebar />
       <Feed />
-      <MessageSender />
+      
       {/* Widget */}
       </div>
     </div>
